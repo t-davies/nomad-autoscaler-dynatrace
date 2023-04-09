@@ -32,9 +32,10 @@ jobs:
       - run: go build -v ./...
 
       - run: go test -v -coverprofile coverage.out ./...
+      - run: go tool cover -html coverage.out -o coverage.html
 
       - name: upload coverage
         uses: actions/upload-artifact@v3
         with:
           name: test-coverage
-          path: coverage.out
+          path: coverage.html
