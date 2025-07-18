@@ -1,6 +1,6 @@
 module github.com/t-davies/nomad-autoscaler-dynatrace
 
-go 1.18
+go 1.23.0
 
 require (
 	github.com/dynatrace-ace/dynatrace-go-api-client/api/v2/environment/dynatrace v0.0.0-20210816162345-de2eacc8ac9a
@@ -27,10 +27,9 @@ require (
 	github.com/oklog/run v1.0.0 // indirect
 	github.com/stretchr/testify v1.9.0
 	golang.org/x/net v0.23.0 // indirect
-	golang.org/x/oauth2 v0.7.0 // indirect
+	golang.org/x/oauth2 v0.27.0 // indirect
 	golang.org/x/sys v0.18.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
-	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1 // indirect
 	google.golang.org/grpc v1.56.3 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
